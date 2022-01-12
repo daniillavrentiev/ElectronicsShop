@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<table class="table">
+  <tbody>
+    <tr>
+      <td>Диагональ</td>
+      <td>{{ product.diagonal }}</td>
+    </tr>
+    <tr>
+      <td>Тип дисплея</td>
+      <td>{{ product.display }}</td>
+    </tr>
+    <tr>
+      <td>Процессор</td>
+      <td>{{ product.processor_freq }}</td>
+    </tr>
+    <tr>
+      <td>Оперативная память</td>
+      <td>{{ product.ram }}</td>
+    </tr>
+    <tr>
+      <td>Видеокарта</td>
+      <td>{{ product.video }}</td>
+    </tr>
+    <tr>
+      <td>Время работы аккумулятора</td>
+      <td>{{ product.time_without_charge }}</td>
+    </tr>
+
+  </tbody>
+</table>
+
+
+<!--    diagonal = models.CharField(max_length=255, verbose_name='Диагональ')-->
+<!--    display = models.CharField(max_length=255, verbose_name='Тип дисплея')-->
+<!--    processor_freq = models.CharField(max_length=255, verbose_name='Частота процессора')-->
+<!--    ram = models.CharField(max_length=255, verbose_name='Оперативная память')-->
+<!--    video = models.CharField(max_length=255, verbose_name='Видеокарта')-->
+<!--    time_without_charge = models.CharField(max_length=255, verbose_name='Время работа аккомулятора')-->
